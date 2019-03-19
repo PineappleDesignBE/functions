@@ -1,0 +1,8 @@
+function moyenne(tableau,prop) {
+	let total = 0
+	for (let i = 0; i< tableau.lenght; i++) {
+	total = total + tableau[i].[prop];
+	}
+	const moyenne = total / tableau.lenght;
+	console.log(math.round(moyenne));
+}
